@@ -1,0 +1,80 @@
+{
+  "_helper-1d4e7fcb.js": {
+    "file": "assets/helper-1d4e7fcb.js"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-86fc73d7.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-34e4b429.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  },
+  "resources/js/apps/auth/forgot-password.js": {
+    "file": "assets/forgot-password-5dfe8544.js",
+    "isEntry": true,
+    "src": "resources/js/apps/auth/forgot-password.js"
+  },
+  "resources/js/apps/auth/login.js": {
+    "file": "assets/login-134ba7c1.js",
+    "isEntry": true,
+    "src": "resources/js/apps/auth/login.js"
+  },
+  "resources/js/apps/category/category.js": {
+    "file": "assets/category-b7f8c7d6.js",
+    "isEntry": true,
+    "src": "resources/js/apps/category/category.js"
+  },
+  "resources/js/apps/dashboard/dashboard.js": {
+    "file": "assets/dashboard-51044aed.js",
+    "isEntry": true,
+    "src": "resources/js/apps/dashboard/dashboard.js"
+  },
+  "resources/js/apps/job-history/job-history.js": {
+    "file": "assets/job-history-2da7bdd4.js",
+    "imports": [
+      "resources/js/apps/dashboard/dashboard.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/apps/job-history/job-history.js"
+  },
+  "resources/js/apps/job/job.js": {
+    "file": "assets/job-c22d614b.js",
+    "imports": [
+      "_helper-1d4e7fcb.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/apps/job/job.js"
+  },
+  "resources/js/apps/job/user-job.js": {
+    "file": "assets/user-job-d77deeb8.js",
+    "imports": [
+      "_helper-1d4e7fcb.js",
+      "resources/js/apps/dashboard/dashboard.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/apps/job/user-job.js"
+  },
+  "resources/js/apps/report/job-report.js": {
+    "file": "assets/job-report-847607f3.js",
+    "isEntry": true,
+    "src": "resources/js/apps/report/job-report.js"
+  },
+  "resources/js/apps/subcategory/subcategory.js": {
+    "file": "assets/subcategory-14cc0feb.js",
+    "isEntry": true,
+    "src": "resources/js/apps/subcategory/subcategory.js"
+  },
+  "resources/js/apps/users/profile.js": {
+    "file": "assets/profile-b7b0dbea.js",
+    "isEntry": true,
+    "src": "resources/js/apps/users/profile.js"
+  },
+  "resources/js/apps/users/user.js": {
+    "file": "assets/user-61b99701.js",
+    "isEntry": true,
+    "src": "resources/js/apps/users/user.js"
+  }
+}

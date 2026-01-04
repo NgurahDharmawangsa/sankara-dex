@@ -1,0 +1,1 @@
+$("#btn-export").click(function(){var t=$("#export-url").val();t+="?",$("#date-from").val()!=""&&(t+=`date_from=${$("#date-from").val()}&`),$("#date-to").val()!=""&&(t+=`date_to=${$("#date-to").val()}&`),t=t.slice(0,t.length-1),open(t,"_blank")});
